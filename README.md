@@ -1,37 +1,29 @@
-## Alex Flores-Veliz
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+        <title> Alex Flores-Veliz</title>
+    <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+    <div id="wrapper">
+        <header>
+        <h1> Alex Flores-Veliz</h1>
+        <h2> Designer. Developer. Dude.</h2>
+        <h4>I don't drink but I know things.</h4>    
+        </header>
+    <!-- Navigation Bar -->         
+        <nav id="buttons">
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> About </a></li>
+            <li><a href="#"> Work </a></li>
+            <li><a href="#"> Contact </a></li>
+            </ul>
+        </nav>
+        </div>
+    </body>
 
-You can use the [editor on GitHub](https://github.com/AlexFloresVeliz/Portfolio/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AlexFloresVeliz/Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
