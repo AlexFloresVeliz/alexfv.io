@@ -1,2 +1,2 @@
 # Online-Portfolio
-My online portfolio created using HTML and CSS
+My online portfolio created using Javascript, HTML, and CSS
