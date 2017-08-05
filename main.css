@@ -1,4 +1,4 @@
-#navLink:hover{
+#nav-link:hover{
     color: #1DA1F2;
 }
 
@@ -9,7 +9,7 @@ body {
 
 header {    
     background: linear-gradient(130deg, #104E8B , #238E68 80%);
-    height: 330px;
+    height: 300px;
     padding: 4px;
 }
 
@@ -17,8 +17,9 @@ header h1{
     font-size: 60px;
     text-align: center;
     color: white;
-    line-height: 150px;
+    line-height: 140px;
     font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
 
 header p {
