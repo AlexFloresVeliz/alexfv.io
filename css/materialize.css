@@ -5776,10 +5776,9 @@ button.btn-floating {
 }
 
 .materialboxed {
-  display: block;
+  display: inline-sblock;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
-  position: relative;
   transition: opacity .4s;
   -webkit-backface-visibility: hidden;
 }
