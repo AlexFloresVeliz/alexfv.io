@@ -1,10 +1,9 @@
 .nav {
   margin: 0 auto;
   text-transform: uppercase;
-  color: #ffffff;
-  font-size: 1.1em;
+  font-size: 1em;
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -12,8 +11,15 @@
 
 .nav a{
   text-decoration: none;
-  color: #ffffff;
-  padding: .5em;
+  color: #eeeeee;
+  padding: 1em;
+  letter-spacing: 5px;
+}
+
+.nav a:hover{
+  text-decoration: none;
+  transition: .5s;
+  color: #888888;
 }
 
 .App {
@@ -31,13 +37,17 @@
 }
 
 .App-title {
+  transition: 1s ;
   color: #ffffff;
   display: inline;
-  font-size: 5.5em;
+  font-size: 6.5em;
   margin: 0;
   position: absolute;
   top: 45%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  background: -webkit-radial-gradient(cyan, magenta, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

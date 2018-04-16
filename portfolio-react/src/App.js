@@ -6,10 +6,10 @@ class NavBar extends Component {
     return (
       <nav>
         <div className="nav">
-          <a href="#hello">Link 1</a>
-          <a href="#mellow">Link 2</a>
-          <a href="#yellow">Link 3</a>
-          <a href="#fellow">Link 4</a>
+          <a href="#hello">Hello</a>
+          <a href="#mellow">Mellow</a>
+          <a href="#yellow">Yellow</a>
+          <a href="#fellow">Fellow</a>
         </div>
       </nav>
     )
