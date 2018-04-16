@@ -11,7 +11,7 @@
 
 .nav a{
   text-decoration: none;
-  color: #eeeeee;
+  color: #aaa;
   padding: 1em;
   letter-spacing: 5px;
 }
@@ -19,7 +19,31 @@
 .nav a:hover{
   text-decoration: none;
   transition: .5s;
-  color: #888888;
+  color: #777;
+}
+
+.footer {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer a{
+  text-decoration: none;
+  color: #aaa;
+  padding: .5em;
+  letter-spacing: 5px;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  transition: .5s;
+  color: #777;
 }
 
 .App {
@@ -30,7 +54,9 @@
 }
 
 .App-header {
-  background-color: #111;
+  /*think about this*/
+  background-color: #fff;
+  /*background-color: #111;*/
   height: -webkit-fill-available;
   padding: 0px;
   margin: 0px;
@@ -38,7 +64,7 @@
 
 .App-title {
   transition: 1s ;
-  color: #ffffff;
+  color: #333;
   display: inline;
   font-size: 6.5em;
   margin: 0;
@@ -47,7 +73,9 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  background: -webkit-radial-gradient(cyan, magenta, white);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /*background: -webkit-radial-gradient(cyan, magenta, white);*/
+  /*Think about this*/
+  /*background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);*/
+  /*-webkit-background-clip: text;*/
+  /*-webkit-text-fill-color: transparent;*/
 }
