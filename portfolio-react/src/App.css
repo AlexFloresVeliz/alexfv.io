@@ -22,15 +22,6 @@
   color: #666;
 }
 
-.profile-pic{
-  border-radius: 100%;
-  width: 30%;
-  height: 30%; 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .footer {
   margin: 0 auto;
   text-transform: uppercase;
@@ -70,6 +61,7 @@
 }
 
 .App-title {
+  /*think: color waking up from white to black or from black to white*/
   color: #333;
   display: inline;
   font-size: 6.5em;
