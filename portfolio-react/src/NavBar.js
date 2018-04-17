@@ -46,24 +46,8 @@ class NavBar extends Component {
         <span>
           <a href="#yellow" onClick={this.showModal2}>Tech</a>
           <Modal open={this.state.modal2} onClose={this.onCloseModal} little>
-          <h1> Tech I Use 👨‍💻</h1>
-          <h3>Engineering ⚒</h3>
-          <div class="flex-container">
-            <img data-caption="html" src="img/dev/HTML5_Badge.svg"/>
-            <img data-caption="css" src="img/dev/CSS3_Badge.png"/>
-            <img data-caption="javascript" src="img/dev/ES6_Badge.png"/>
-            <img data-caption="react" src="img/dev/react_badge.png"/>
-            <img data-caption="java" src="img/dev/java_logo.png"/>
-            <img data-caption="postgreSQL" src="img/dev/PostgreSQL_Badge.png"/>
-            <img data-caption="git" src="img/dev/Git_Badge.png"/>
-            <img data-caption="linux-shell-scripting" src="img/dev/Terminal_Badge.png"/>
-          </div>
-          <h3>Design 🎨</h3>
-          <div class="flex-container">
-            <img data-caption="html" src="img/design/PS_Badge.png"/>
-            <img data-caption="css" src="img/design/XD_Badge.png"/>
-            <img data-caption="javascript" src="img/design/Ill_Badge.png"/>
-          </div>
+          <h1> Modal 2 </h1>
+          <p>Lipsum Text</p>
           </Modal>
         </span> 
         <span>
@@ -74,11 +58,10 @@ class NavBar extends Component {
           </Modal>
         </span>
         <span>
-          <a href="#fellow" onClick={this.showModal4}>Listen</a>
+          <a href="#fellow" onClick={this.showModal4}>Suprise</a>
           <Modal open={this.state.modal4} onClose={this.onCloseModal} little>
-          <h1> Listen </h1>
-          <iframe width="680" height="435" src="https://www.youtube.com/embed/MDACd-ShjHk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <p>One of my favorites.</p>
+          <h1> Modal 4 </h1>
+          <p>Lipsum Text</p>
           </Modal>
         </span>
         </div>

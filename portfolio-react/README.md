@@ -6,7 +6,7 @@ It is becoming more and more important to create a personal brand in order to bu
 
 ## Built With 🎨🛠️
 
-My online portfolio was created in [React](https://reactjs.org/)! ⚛
+My online portfolio was created using [React](https://reactjs.org/)!
 
 ## Preview 👀
 
