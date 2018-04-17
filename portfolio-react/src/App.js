@@ -21,10 +21,10 @@ class Footer extends Component {
     return (
       <footer>
         <div className="footer">
-          <a href="https://www.linkedin.com/in/alexfloresveliz/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true" id="nav-link"></i></a>
-          <a href="https://github.com/AlexFloresVeliz" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt" aria-hidden="true" id="nav-link"></i></a>
-          <a href="https://www.behance.net/alexfloresveliz" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance" aria-hidden="true" id="nav-link"></i></a>
-          <a href="mailto:hi@alexfv.io"><i class="far fa-envelope" aria-hidden="true" id="nav-link"></i></a>
+          <a href="https://www.linkedin.com/in/alexfloresveliz/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" id="nav-link"></i></a>
+          <a href="https://github.com/AlexFloresVeliz" target="_blank"><i class="fa fa-github-alt" aria-hidden="true" id="nav-link"></i></a>
+          <a href="https://www.behance.net/alexfloresveliz" target="_blank"><i class="fa fa-behance" aria-hidden="true" id="nav-link"></i></a>
+          <a href="mailto:hi@alexfv.io"><i class="fa fa-envelope-o" aria-hidden="true" id="nav-link"></i></a>
         </div>
       </footer>
     )
