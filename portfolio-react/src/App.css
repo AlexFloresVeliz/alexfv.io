@@ -3,7 +3,7 @@
   text-transform: uppercase;
   font-size: 1em;
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -54,28 +54,31 @@
 }
 
 .App-header {
-  /*think about this*/
   background-color: #fff;
-  /*background-color: #111;*/
   height: -webkit-fill-available;
   padding: 0px;
   margin: 0px;
 }
 
 .App-title {
-  transition: 1s ;
+  /*think: color waking up from white to black or from black to white*/
   color: #333;
   display: inline;
   font-size: 6.5em;
   margin: 0;
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  /*background: -webkit-radial-gradient(cyan, magenta, white);*/
-  /*Think about this*/
-  /*background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);*/
-  /*-webkit-background-clip: text;*/
-  /*-webkit-text-fill-color: transparent;*/
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
