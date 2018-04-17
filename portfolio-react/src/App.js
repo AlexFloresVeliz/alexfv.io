@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './NavBar'
+
+class NavBar extends Component {
+  render() {
+    return (
+      <nav>
+        <div className="nav">
+          <a href="#hello">Hello</a>
+          <a href="#mellow">Mellow</a>
+          <a href="#yellow">Yellow</a>
+          <a href="#fellow">Fellow</a>
+        </div>
+      </nav>
+    )
+  }
+}
 
 class Footer extends Component {
   render() {
