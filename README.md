@@ -6,18 +6,20 @@ It is becoming more and more important to create a personal brand in order to bu
 
 ## Built With 🎨🛠️
 
-My online portfolio was created in [React](https://reactjs.org/)! ⚛
+Website developed with [React](https://reactjs.org/)! ⚛ 
+Deployed using [Netlify](https://www.netlify.com/).
 
 ## Preview 👀
 
-### *Homepage*
-![www alexfv io_](https://user-images.githubusercontent.com/23161228/38596241-617ec15a-3d1e-11e8-84ec-fae5a6f77bf7.png)
-
 ### *Desktop*
-<img src="https://user-images.githubusercontent.com/23161228/38764045-cbde6614-3f75-11e8-8147-9bc4cf065cc4.png">
+<img src="https://user-images.githubusercontent.com/23161228/38910503-9a8ba458-4297-11e8-8086-27c3da93e8f8.png">
 
 ## *iPhone*
-<img src="https://user-images.githubusercontent.com/23161228/38764091-707da9aa-3f76-11e8-99d9-3227f80dfd03.png" width="40%" height="40%">
+<img src="https://user-images.githubusercontent.com/23161228/38910513-9e098b2c-4297-11e8-872c-f08c80b80663.png" width="40%" height="40%">
 
 ## *iPad*
-<img src="https://user-images.githubusercontent.com/23161228/38764072-1d48b018-3f76-11e8-9276-c0c58180e654.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/23161228/38910510-9c674dfe-4297-11e8-8d1e-330718652259.png" width="50%" height="50%">
+
+## Whats next?
+
+Although it looks good on most mobile devices, I plan on making the site responsive for phones of all kinds of sizes in the future. Gotta show love to all the phones 📱
