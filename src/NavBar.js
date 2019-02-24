@@ -31,11 +31,30 @@ class NavBar extends Component {
 
   render() {
     const { modal1, modal2, modal3, modal4 } = this.state;
+
+    {/* STYLING */}
+    var bioStyle = {
+      color:'#FD17FF'
+    };
+
+    var techStyle = {
+      color:'#00B5E3'
+    };
+
+    var contactStyle = {
+      color:'#FAFF7F'
+    };
+
+    var interestingStyle = {
+      color:'#FF5154'
+    };
+
     return (
       <nav>
         <div className="nav">
         <span>
-          <a href="#hello" onClick={this.showModal1}>Bio</a>
+        {/* BIO MODAL */}
+          <a onClick={this.showModal1} style={bioStyle}>Bio</a>
           <Modal open={this.state.modal1} onClose={this.onCloseModal} little>
           <h1> BIO 👨‍💻 </h1>
           <img className="profile-pic" data-caption="Me" src="img/me.png"/>
@@ -44,7 +63,8 @@ class NavBar extends Component {
           </Modal>
         </span>  
         <span>
-          <a href="#yellow" onClick={this.showModal2}>Tech</a>
+        {/* TECH MODAL */}
+          <a onClick={this.showModal2} style={techStyle}>Tech</a>
           <Modal open={this.state.modal2} onClose={this.onCloseModal} little>
           <h1> TECH I USE 👨‍💻</h1>
           <h3>ENGINEERING ⚒</h3>
@@ -67,7 +87,8 @@ class NavBar extends Component {
           </Modal>
         </span> 
         <span>
-          <a href="#mellow" onClick={this.showModal3}>Contact</a>
+        {/* CONTACT MODAL */}
+          <a onClick={this.showModal3} style={contactStyle}>Contact</a>
           <Modal open={this.state.modal3} onClose={this.onCloseModal} little>
           <h1> CONTACT ME </h1>
           <p>Feel free to shoot an email to me via email at <a href="mailto:hi@alexfv.io">hi@alexfv.io</a> if you'd ever like to reach me. You can also find out what I am currently working ON or currently working FOR on my <a href="https://www.linkedin.com/in/alexfloresveliz/" target="_blank"> LinkedIn</a> profile. I also like to freelance in my spare time, so if you'd like to discuss a project, let me know.</p>
@@ -76,7 +97,8 @@ class NavBar extends Component {
           </Modal>
         </span>
         <span>
-          <a href="#fellow" onClick={this.showModal4}>Listen</a>
+        {/* INTERESTING MODAL */}
+          <a onClick={this.showModal4} style={interestingStyle}>Listen</a>
           <Modal open={this.state.modal4} onClose={this.onCloseModal} little>
           <h1> Listen </h1>
           <iframe width="680" height="435" src="https://www.youtube.com/embed/MDACd-ShjHk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
