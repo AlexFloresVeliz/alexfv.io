@@ -7,7 +7,7 @@ It is becoming more and more important to create a personal brand in order to bu
 ## Built With 🎨🛠️
 
 Website developed with [React](https://reactjs.org/)! ⚛ 
-Deployed using [Netlify](https://www.netlify.com/).
+Deployed using [Heroku](https://www.heroku.com/).
 
 ## Preview 👀
 
