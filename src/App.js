@@ -12,7 +12,7 @@ class Footer extends Component {
           {/* GitHub Link */}
           <a href="https://github.com/AlexFloresVeliz" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt" aria-hidden="true" id="nav-link"></i></a>
           {/* Behance Link */}
-          <a href="https://www.behance.net/alexfloresveliz" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance" aria-hidden="true" id="nav-link"></i></a>
+          {/*<a href="https://www.behance.net/alexfloresveliz" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance" aria-hidden="true" id="nav-link"></i></a>*/}
           {/* Twitter Link */}
           <a href="https://twitter.com/AlexFVeliz" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter" aria-hidden="true" id="nav-link"></i></a>
           {/* Email Link */}

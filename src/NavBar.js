@@ -33,21 +33,80 @@ class NavBar extends Component {
     const { modal1, modal2, modal3, modal4 } = this.state;
 
     {/* STYLING */}
-    var bioStyle = {
+    let bioStyle = {
       color:'#FD17FF'
     };
 
-    var techStyle = {
+    let techStyle = {
       color:'#00B5E3'
     };
 
-    var contactStyle = {
+    let contactStyle = {
       color:'#FAFF7F'
     };
 
-    var interestingStyle = {
+    let interestingStyle = {
       color:'#FF5154'
     };
+
+    let illStyle = {
+      fill:'#FF7C00'
+    };
+
+    let linkStyle = {
+      color: '#00B5E3',
+      textDecoration:'none'
+    };
+
+    {/* DESIGN HOBBY CSS*/}
+    let designHobbyText = {
+      float: 'left',
+      maxWidth: '75%'
+    }
+
+    let designHobbyIcon = {
+      float: 'right',
+      fontSize: '3.5em',
+      color: '#1769FF',
+      marginRight: '7%',
+      marginTop:'2%'
+    }
+
+    {/* GAMING HOBBY CSS*/}
+    let gamingHobbyText = {
+      float: 'left',
+      maxWidth: '75%'
+    }
+
+    let gamingHobbyIconTwitch = {
+      display: 'block',
+      // marginLeft: 'auto',
+      // marginRight: 'auto',
+      float: 'right',
+      fontSize: '3.5em',
+      color: '#6441A4',
+      // marginRight: '7%',
+      marginLeft:'1%',
+      marginTop:'2%'
+    }
+
+    let gamingHobbyIconPlaystation = {
+      display: 'block',
+      float: 'right',
+      fontSize: '3.5em',
+      color: '#003791',
+      marginLeft:'1%',
+      marginTop:'2%'
+    }
+
+    let gamingHobbyIconSteam = {
+      display: 'block',
+      float: 'right',
+      fontSize: '3.5em',
+      color: '#2D2926',
+      marginLeft:'1%',
+      marginTop:'2%'
+    }
 
     return (
       <nav>
@@ -56,10 +115,13 @@ class NavBar extends Component {
         {/* BIO MODAL */}
           <a onClick={this.showModal1} style={bioStyle}>Bio</a>
           <Modal open={this.state.modal1} onClose={this.onCloseModal} little>
-          <h1> BIO 👨‍💻 </h1>
+          <h1> BIO 🐺 </h1>
           <img className="profile-pic" data-caption="Me" src="img/me.png"/>
-          <p>Hey! 👋 Welcome to my site! My name is Alex Flores-Veliz and I am an aspiring Software Engineer looking to grow my technical and personal skills at an organization where my familiarity in design principles and software development can be applied to help the organization reach its goals. My career goal is to become an engineer, but I still love to work on designing as a hobby. I am proficient in producing and editing computer graphics through Adobe PhotoShop, creating logos and other vector graphics in Adobe Illustrator, and can create interactive prototypes of iOS/Android and web applications using Adobe XD.</p>
-          <p>I'm a Computer Science senior at CUNY Lehman College, former President of the National Society of Black Engineers chapter at Lehman College and one of the organizers of the <a href= "http://bit.ly/NSHack17" target="_blank">2017 and 2018 NS Hackathon</a>. I am also a former Software Engineering Intern for a software consulting company named<a href="http://gestalt.io/" target="_blank"> Gestalt Interactive</a> where I spent the summer of 2017 working on designing and implementing designs I created using Photoshop with HTML, CSS and Javascript. I've most recently finished a Software Engineering internship with <a href="https://www.target.com/" target="_blank">Target</a> during this past summer. Want to learn more? Contact me!</p>
+          <p>
+          Hey! 👋 My name is Alex and I'm a Software Engineer based in NYC, former Software Engineering intern for <a href="http://gestalt.io/" style={linkStyle} target="_blank"> Gestalt Interactive</a> and <a href="https://www.target.com/" style={linkStyle} target="_blank">Target</a> and incoming Software Engineer for <a href="https://www.americanexpress.com" style={linkStyle} target="_blank"> American Express</a>.
+          </p>
+          <p>I am a former President of the <a href="http://nsbe.org/home.aspx" style={linkStyle} target="_blank">National Society of Black Engineers (NSBE)</a> chapter at Lehman College and a former organizer for the <a href= "http://bit.ly/NSHack17" style={linkStyle} target="_blank">2017</a> and 2018 NS Hackathons. 
+          </p>
           </Modal>
         </span>  
         <span>
@@ -76,13 +138,12 @@ class NavBar extends Component {
             <img data-caption="java" src="img/dev/java_logo.png"/>
             <img data-caption="postgreSQL" src="img/dev/PostgreSQL_Badge.png"/>
             <img data-caption="git" src="img/dev/Git_Badge.png"/>
-            <img data-caption="linux-shell-scripting" src="img/dev/Terminal_Badge.png"/>
           </div>
           <h3>DESIGNING 🎨</h3>
           <div class="flex-container">
             <img data-caption="html" src="img/design/PS_Badge.png"/>
             <img data-caption="css" src="img/design/XD_Badge.png"/>
-            <img data-caption="javascript" src="img/design/Ill_Badge.png"/>
+            <img data-caption="javascript" style={illStyle} src="img/design/Ill_Badge.png"/>
           </div>
           </Modal>
         </span> 
@@ -98,11 +159,17 @@ class NavBar extends Component {
         </span>
         <span>
         {/* INTERESTING MODAL */}
-          <a onClick={this.showModal4} style={interestingStyle}>Listen</a>
+          <a onClick={this.showModal4} style={interestingStyle}>Hobbies</a>
           <Modal open={this.state.modal4} onClose={this.onCloseModal} little>
-          <h1> Listen </h1>
-          <iframe width="680" height="435" src="https://www.youtube.com/embed/MDACd-ShjHk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <p>One of my favorites.</p>
+          <h1> Hobbies </h1>
+          {/*DESIGN HOBBY*/}
+          <p style={designHobbyText}>I'm from the <a href="https://www.nycgo.com/boroughs-neighborhoods/the-bronx" style={linkStyle} target="_blank">X</a>, so naturally I grew up with a strong appreciation and love for art. BLAH BLAH BLAH so naturally I grew up with a strong appreciation and love for art. BLAH BLAH BLAH.so naturally I grew up with a strong appreciation and love for art. BLAH BLAH BLAH.</p>
+          <a href="https://www.behance.net/alexfloresveliz" target="_blank" rel="noopener noreferrer" style={designHobbyIcon}><i class="fab fa-behance" aria-hidden="true" id="nav-link"></i></a>
+          {/*Gaming HOBBY*/}
+          <p style={gamingHobbyText}>I'm from the <a href="https://www.nycgo.com/boroughs-neighborhoods/the-bronx" style={linkStyle} target="_blank">X</a>, so naturally I grew up with a strong appreciation and love for art. BLAH BLAH BLAH so naturally I grew up with a strong appreciation and love for art. BLAH BLAH BLAH.so naturally I grew up with a strong appreciation and love for art. BLAH BLAH BLAH.</p>
+          <a href="https://steamcommunity.com/id/SolicitedCoyote/" target="_blank" rel="noopener noreferrer" style={gamingHobbyIconSteam}><i class="fab fa-steam" aria-hidden="true" id="nav-link"></i></a>
+          <a href="https://my.playstation.com/profile/SolicitedCoyote" target="_blank" rel="noopener noreferrer" style={gamingHobbyIconPlaystation}><i class="fab fa-playstation" aria-hidden="true" id="nav-link"></i></a>
+          <a href="https://www.twitch.tv/solicitedcoyote" target="_blank" rel="noopener noreferrer" style={gamingHobbyIconTwitch}><i class="fab fa-twitch" aria-hidden="true" id="nav-link"></i></a>
           </Modal>
         </span>
         </div>
