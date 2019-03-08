@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/alexfv
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alexfv.io
+  * I am alexfv (https://keybase.io/alexfv) on keybase.
+  * I have a public key ASCb2yr4RVOMBRuHEPJvnNShqv1z3iv20r5ZSHknCnrYDwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012063c0d5429e09b9430cd05759469250a8ef8f065d02a5b45131dd7d841b618d820a",
+      "host": "keybase.io",
+      "kid": "01209bdb2af845538c051b8710f26f9cd4a1aafd73de2bf6d2be594879270a7ad80f0a",
+      "uid": "322ca0b2ab46d9688b9fa59c9987ab19",
+      "username": "alexfv"
+    },
+    "merkle_root": {
+      "ctime": 1552073553,
+      "hash": "ae425fd7db97838d8dcf14685bb5d8186327d6c46c92f9f78b4725e4cfe59502da8d04c4dcc35c6cb2a61b1154f5ac036f4b8a9341ad7b6ff7be2dd18472f376",
+      "hash_meta": "bf5ba0456d8e3359d2d3feb926030979a11a0d4efae39d9db9ae47a25a56f9dc",
+      "seqno": 4904470
+    },
+    "service": {
+      "entropy": "geumvEeKU+Paaav3qjYiUh8p",
+      "hostname": "alexfv.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.0"
+  },
+  "ctime": 1552073578,
+  "expire_in": 504576000,
+  "prev": "bddc3d9ecc0bd882770baf2aa8cbb98b1b7e7a35b8f7632af1092c376be00f20",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgm9sq+EVTjAUbhxDyb5zUoar9c94r9tK+WUh5Jwp62A8Kp3BheWxvYWTESpcCFcQgvdw9nswL2IJ3C68qqMu5ixt+ejW492Mq8QksN2vgDyDEIC1Y/ghMyOF5SIMmfgkVZzFLaVkNqZy98h8SaweYwk3FAgHCo3NpZ8RArSaWsJUTtbai1t1aiullArKEI7mMl9kBg4ek1aLtMyKlxZEP0A0pbcDmpP/Uvu613zy4ukcAMXWP1PKpDij2BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOpJ+m25Z8MaB8m+z9noC4CZ3+kP9fEkGjPQEYyQ/Cv2o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alexfv
+
+==================================================================
