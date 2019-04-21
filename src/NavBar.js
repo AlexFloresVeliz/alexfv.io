@@ -109,12 +109,21 @@ class NavBar extends Component {
       maxWidth: '70%'
     }
 
-    let footballHobbyIcon = {
+    let sportsHobbyIcon = {
       float: 'right',
-      width: '7.5%',
-      height: '7.5%', 
+      width: '7.8%',
+      height: '7.8%', 
       display: 'block',
-      marginRight: '8.7%'
+      marginRight: '3%',
+      marginTop:'1%'
+    }
+
+    let sportsHobbyIconRM = {
+      float: 'right',
+      width: '6.5%',
+      height: '6.5%', 
+      display: 'block',
+      marginRight: '3.5%',
     }
 
     return (
@@ -187,10 +196,11 @@ class NavBar extends Component {
           <a href="https://my.playstation.com/profile/SolicitedCoyote" target="_blank" rel="noopener noreferrer" style={gamingHobbyIconPlaystation}><i class="fab fa-playstation" aria-hidden="true" id="nav-link"></i></a>
           <a href="https://www.twitch.tv/solicitedcoyote" target="_blank" rel="noopener noreferrer" style={gamingHobbyIconTwitch}><i class="fab fa-twitch" aria-hidden="true" id="nav-link"></i></a>
 
-          {/* FOOTBALL HOBBY */}
-          <p style={footballHobbyText}>I'm a really huge football fan! I like sports in general and try to keep up with NY sports when they're not all being depressingly bad but most of my weekend mornings are spent watching football. I am a huge Real Madrid fan! Hala Madrid!</p>
+          {/* SPORTS HOBBY */}
+          <p style={footballHobbyText}>I'm a really huge football fan and supporter of Real Madrid! I also enjoy watching esports and support Team Liquid!</p>
           {/* LINKS */}
-          <img data-caption="real-madrid" style={footballHobbyIcon} src="img/Real_Madrid_logo.png"/>
+          <img data-caption="team-liquid" style={sportsHobbyIcon} src="img/tl_logo.png"/>
+          <img data-caption="real-madrid" style={sportsHobbyIconRM} src="img/Real_Madrid_logo.png"/>
           </Modal>
         </span>
         </div>
