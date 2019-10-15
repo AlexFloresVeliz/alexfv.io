@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './NavBar'
 
 class Footer extends Component {
   render() {
@@ -28,8 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">A L E X F-V</h1>
-          <NavBar />
+          <p className="App-sub">Site is currently under remodeling. Come back another time or check me out on my socials down below.</p>
           <Footer />
         </header>
       </div>
