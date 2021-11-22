@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p className="App-sub">As of November 2021, this site is under remodeling. Come back another time. </p>
+          <p className="App-sub">As of November 2021, this site is under remodeling. Come back another time.</p>
           {/* <Footer /> */}
         </header>
       </div>
