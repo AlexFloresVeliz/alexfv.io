@@ -7,9 +7,9 @@ It is becoming more and more important to create a personal brand in order to bu
 ## Built With 🎨🛠️
 
 Website developed with [React](https://reactjs.org/)! ⚛ 
-Deployed using [Heroku](https://www.heroku.com/).
+<!-- Deployed using [Heroku](https://www.heroku.com/). -->
 
-## Preview 👀
+<!-- ## Preview 👀
 
 ### *Desktop*
 <img src="https://user-images.githubusercontent.com/23161228/38910503-9a8ba458-4297-11e8-8086-27c3da93e8f8.png">
@@ -18,7 +18,7 @@ Deployed using [Heroku](https://www.heroku.com/).
 <img src="https://user-images.githubusercontent.com/23161228/38910513-9e098b2c-4297-11e8-872c-f08c80b80663.png" width="40%" height="40%">
 
 ## *iPad*
-<img src="https://user-images.githubusercontent.com/23161228/38910510-9c674dfe-4297-11e8-8d1e-330718652259.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/23161228/38910510-9c674dfe-4297-11e8-8d1e-330718652259.png" width="50%" height="50%"> -->
 
 ## Whats next?
 
